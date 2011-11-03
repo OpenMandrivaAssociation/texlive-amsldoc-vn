@@ -1,3 +1,9 @@
+# revision 21855
+# category Package
+# catalog-ctan /info/amslatex/vietnamese
+# catalog-date 2007-01-26 22:11:52 +0100
+# catalog-license lgpl
+# catalog-version 2.0
 Name:		texlive-amsldoc-vn
 Version:	2.0
 Release:	1
@@ -26,6 +32,7 @@ to amsmath.
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-print-vi.tex
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-vi.pdf
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-vi.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,3 +43,5 @@ to amsmath.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a Vietnamese translation of amsldoc, the users' guide
@@ -32,7 +30,6 @@ to amsmath.
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-print-vi.tex
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-vi.pdf
 %doc %{_texmfdistdir}/doc/latex/amsldoc-vn/amsldoc-vi.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -43,5 +40,3 @@ to amsmath.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

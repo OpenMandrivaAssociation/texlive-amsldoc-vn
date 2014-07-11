@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-amsldoc-vn
 Version:	2.0
-Release:	7
+Release:	8
 Summary:	Vietnamese documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/amslatex/vietnamese

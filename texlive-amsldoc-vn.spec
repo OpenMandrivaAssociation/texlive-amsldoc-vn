@@ -5,8 +5,8 @@ Summary:	Vietnamese documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/amslatex/vietnamese
 License:	LGPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.r21855.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.doc.r21855.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

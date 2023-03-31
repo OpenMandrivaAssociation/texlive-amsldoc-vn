@@ -1,6 +1,6 @@
 Name:		texlive-amsldoc-vn
 Version:	21855
-Release:	1
+Release:	2
 Summary:	Vietnamese documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/amslatex/vietnamese

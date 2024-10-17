@@ -3,7 +3,7 @@ Version:	21855
 Release:	2
 Summary:	Vietnamese documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/amslatex/vietnamese
+URL:		https://www.ctan.org/tex-archive/info/amslatex/vietnamese
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsldoc-vn.doc.r%{version}.tar.xz
